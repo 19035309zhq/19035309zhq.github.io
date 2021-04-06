@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+  <style>
+.tou1{
+    background-color: #F3EDED;
+    font-size: 8px;
+    color: #444444;
+    line-height: 3em;
+    height: 25px;
+    text-indent: 20em;
+}
+body{
+    min-width: 1280px;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    
+}
+.header img{
+    height: 80px;
+    float: left;
+    margin-left: 80px;
+}
+ 
+
+.header ul {
+    list-style-type: none;
+    padding: 0px;
+    float: right;
+    position: relative;/*子元素absol*/
+}
+
+.header     ul li {
+    width: 110px;
+    height: 80px;
+    text-align: center;
+    float: left;
+}
+.header ul li a {
+    color: #000000;
+    text-decoration: none;
+    line-height: 80px;
+    font-size: large;
+
+}
+.header ul li:hover{
+    background-color:#E7E7E8 ;
+}
+.dao2{
+    background-color: #E7E7E8;
+    border-bottom: #EB0617;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+.dao3{
+  width: 100%;
+  height: 65px;
+  background-color: #F3EDED;
+  margin-top: -17px;
+}
+
+.dao3 ul li{
+  width: 10%;
+  float: left;
+  background-color: #F3EDED;
+  list-style: none;
+  height: 65px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 4em;
+}
+.dao3 ul li a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+.li2{
+    color: #EB0617;
+    border-bottom: #EB0617;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+.dao3 ul li:hover{
+  background-color:#ddddeb ;
+}
+
+/*中间部分*/
+.kuang1{
+  border-radius: 0;
+  width: 100%;
+  
+  height: 100px;
+  background-color: #EB0617;
+  position: relative;
+   
+}
+.cardxing{
+  border-radius:30px;
+  width: 150px;
+  height: 40px;
+  background-color: #FFFFFF;
+  margin-left:9.5%;
+  margin-top: -25px;
+}
+
+
+.but1{
+    width: 50px;
+    box-shadow:0 0 2px 2px rgb(247, 244, 244);  
+    border-width: 0;
+    margin-left: 96.2%;
+    margin-top: 200px;
+    position: fixed; 
+   background-color: white;
+    border-radius: 2px;
+    
+}  
+.but2{
+    width: 50px;
+    box-shadow:0 0 2px 2px rgb(247, 244, 244); 
+    border-width: 0;
+    margin-left: 96.2%;
+    margin-top: 254px;
+    position: fixed; 
+   background-color: white;
+    border-radius: 2px;
+    
+} 
+
+.but1:hover,.but2:hover{
+    border-width: 0;
+    background-color: rgb(158, 213, 245);
+} 
+.biaoge1{
+  width: 1000px;
+  margin-left: 10%;
+  margin-top: 50px;
+  background-color: #FDF7F7;
+  height: 52px;
+  font-size: 20px;
+  font-weight: 550;
+  text-indent: 2em;
+} 
+.biaoge2{
+  width: 1000px;
+  margin-left: 10%;
+  margin-top: 0;
+} 
+.biaoge2 td{
+  width: 250px;
+}
+
+.biaoge3{
+  width: 1000px;
+  margin-left: 10%;
+  height: 100px;
+  margin-top: 0;
+} 
+.biaoge4{
+  width: 1000px;
+  margin-left: 10%;
+ 
+  background-color: #FDF7F7;
+  height: 52px;
+  font-size: 20px;
+  font-weight: 550;
+  text-indent: 2em;
+} 
+.biaoge5{
+  width: 1000px;
+  margin-left: 10%;
+  margin-top: 0;
+} 
+.biaoge5 tr{
+  height: 52px;
+}
+.biaoge5 td{
+  text-align: center;
+  font-size: 10px;
+}
+.biaoge6{
+  width: 1000px;
+  margin-left: 10%;
+ 
+  background-color: #FDF7F7;
+  height: 52px;
+  font-size: 20px;
+  font-weight: 550;
+  text-indent: 2em;
+} 
+.biaoge7{
+  width: 1000px;
+  margin-left: 10%;
+  margin-top: 0;
+  
+
+} 
+.biaoge8{
+  width: 1000px;
+  margin-left: 10%;
+ 
+  background-color: #FDF7F7;
+  height: 52px;
+  font-size: 20px;
+  font-weight: 550;
+  text-indent: 2em;
+} 
+.biaoge9{
+  width: 1000px;
+  margin-left: 10%;
+  margin-top: 0;
+  height: 100px;
+  font-size: 12px;
+  text-indent: 2em;
+} 
+
+
+
+  
+
+    
+/*下方边框*/
+.xiaokuang2{
+  background-color:#EB0617;
+  border-radius: 0;
+  border-width: 0;
+  width: 100vw;
+  height: 150px;
+  margin-top: 0px;
+  margin-left: -85px;
+}
+.zi1{
+  font-size: smaller;
+  color: aliceblue;
+  text-align: center;
+  margin-top: -15px;
+}
+.xiaokuang2 p a{
+  color: aliceblue;
+}
+.zi2{
+  font-size:x-small;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.zi3{
+  font-size: smaller;
+  color: aliceblue;
+  margin-left: 43%;
+  margin-top: -15px;
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="tou1">
+      <p>工作站页面</p>
+  </div>
+  <div class="header">
+   
+    <img src="../2021/img2021/QQ截图20210324162542.png" alt="ico">
+    
+  
+        <ul class="font-weight-bold ">
+            <li><a href="#" >首页</a></li>
+            <li class="dao2"><a href="#" style="color: #000000;">工作站页面</a></li>
+            <li><a href="#">我的</a></li>
+        </ul>
+        
+    
+  </div>      
+
+
+<button class="but1">咨询投诉</button>
+<button class="but2">智能助手</button>
+
+            <div class="kuang1">
+                <h2  style="color: #FFFFFF;margin-left: 9%;line-height: 1.5em;float: left;">
+                    公&nbsp;元&nbsp;塑&nbsp;业&nbsp;集&nbsp;团&nbsp;有&nbsp;限&nbsp;公&nbsp;司</h2>
+                    
+                    <p style="color:#FFFFFF ;line-height: 4em;">&nbsp;&nbsp;&nbsp;国家博士后科研工作站</p>
+                
+                <div class=" cardxing">
+                    <div style="font-weight: 600;  ">
+                          <p style="color:#EB0617;float: left;line-height: 2em; ">&nbsp;&nbsp;&nbsp;☆</p>
+                        <p style="color: #000000; line-height: 2em;">&nbsp;&nbsp;&nbsp;&nbsp;塑料品制业</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="dao3">
+              <ul>
+                <li ><a href="../2021/第四周-1.html">首页</a></li>
+                <li ><a href="../2021/第四周-2.html">单位简介</a></li>
+                <li class="li2"><a href="../2021/第四周-3.html">科研项目</a></li>
+              </ul>
+            </div>
+
+     <table class="biaoge1 table-bordered">
+       <tr >
+         <td >博士后科研项目需求</td>
+       </tr>
+     </table>
+     <table class="biaoge2 table-bordered ">
+       <tr>
+         <td style="background-color: #FDF7F7;font-size: 15px; text-align: center;">拟开展博士后科研项目</td>
+         <td style="font-size: 10px; text-align: center;">
+          <br>
+           <p >新型复合管道关键技术的研究与应用</p>
+           <p>2021.01-2023.12</p>
+         </td>
+         <td style="background-color: #FDF7F7;font-size: 15px; text-align: center;">经费投入</td>
+         <td style="font-size: 10px; text-align: center;">1000</td>
+       </tr>
+      </table>
+      <table class="biaoge3 table-bordered ">
+       <tr>
+         <td style="background-color: #FDF7F7;font-size: 15px; text-align: center;width: 250px;">预期目标、研究水平及市场前景</td>
+         <td style="font-size: 10px;text-indent: 2em; ">包括复合材料选择性、复合材料相容性、复合工艺、复合管道结构、复合管道的性能评估和检测技术、复合管道专用设备等研究，达到国际先进水平，并进行核心专利的布局。</td>
+       </tr>
+      </table>
+      <table class="biaoge4 table-bordered">
+       <tr>
+         <td >博士后研究人员需求</td>
+       </tr>
+      </table>
+      <table class="biaoge5 table-bordered">
+       <tr>
+        <td style="width: 20%; background-color: #FDF7F7;">年份</td>
+        <td style="width: 30%; background-color: #FDF7F7; ">拟招收人数</td>
+        <td style="width: 50%; background-color: #FDF7F7;">专业领域</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>2</td>
+        <td>高分子材料相关专业</td>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td>2</td>
+        <td>高分子材料相关专业</td>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>2</td>
+        <td>高分子材料相关专业</td>
+      </tr>
+    </table>
+    <table class="biaoge6 table-bordered">
+      <tr>
+        <td>本单位拟担任博士后合作导师</td>
+      </tr>
+    </table>
+    <table class="biaoge7 table-bordered ">
+      <tr style="height: 50px; font-size: 13px;background-color:#FDF7F7 ; text-align: center;">
+        <td style="width: 20%;">姓名</td>
+        
+        <td>个人简历(职务、职称、学历/学位、研究成果及人才称号等)</td>
+      </tr>
+      <tr style="height: 80px; font-size: 10px;">
+        <td style="text-align: center;">黄剑</td>
+       
+        <td style="text-indent: 2em;">公司副总经理、总工程师，硕士学历，高级工程师。同时担任国家塑料制品标
+          准化技术委员会(SAC/TC48/SC3) 主任委员、国际标准化ISO组织(TC138)
+          中国专家组组长、中国塑料加工工业协会专家委员会专家等。主持“智能管网
+          系统”等省重点研发项目的研究开发，获国内授权专利32件，其中发明专利4 .
+          件。主持和参与60余项国家(行业)标准的制修订工作。先后荣获台州市第
+          八届拔尖人才、全国标准化工作先进个人等荣誉。
+          </td>
+      </tr>
+     </table>
+     <table class="biaoge8 table-bordered">
+      <tr>
+        <td>可提供博士后研究人员科研条件、生活待遇等</td>
+      </tr>
+    </table>
+    <table class="biaoge9 table-bordered">
+      <tr>
+        <td>公司为每个博士后科研项目提供不少于500万元的科研经费，确保项目顺利开展；为博士后提供优良的服务设施及生活保障，确保博士后在合作期间融洽、高效工作。</td>
+      </tr>
+    </table>
+
+
+     
+  
+    
+
+
+
+
+            
+
+ <div style="background-color: #F3EDED;width: 100%;height: 30px;margin-top: 100px;">
+
+      </div> 
+
+    <div class="container">
+      <div class="card xiaokuang2">
+        <div class="card-body">
+      <p class="zi1">|<a href="#">关于我们</a>|<a href="#">地理位置</a>|<a href="#">免责条款</a>|<a href="#">联系我们</a>|</p>
+      <p class="zi2">浙江省专家与留学人员服务中心 版权所有</p>
+      <p class="zi2">Copyright @ 2019 zjhwrc.com All Rights Reserved.</p>
+      <p class="zi1">浙ICP备 13002660号-1</p>
+   
+      <p class="zi3">浙公网安备 33010602004s4s号</p>
+     
+        </div>
+      </div>
+    </div>
+      
+
+      
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
